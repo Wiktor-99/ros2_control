@@ -22,7 +22,12 @@
 #include "controller_interface/chainable_controller_interface.hpp"
 #include "controller_manager/visibility_control.h"
 #include "rclcpp/subscription.hpp"
+<<<<<<< HEAD
 #include "realtime_tools/realtime_buffer.h"
+=======
+#include "realtime_tools/realtime_buffer.hpp"
+#include "semantic_components/imu_sensor.hpp"
+>>>>>>> ca48bdc (Use the .hpp headers from realtime_tools package (#1916))
 #include "std_msgs/msg/float64_multi_array.hpp"
 
 namespace test_chainable_controller
