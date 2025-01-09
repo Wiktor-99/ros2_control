@@ -20,7 +20,7 @@
 #include <unordered_map>
 #include <vector>
 
-#include "urdf/model.h"
+#include "urdf/model.hpp"
 
 #include "hardware_interface/component_parser.hpp"
 #include "hardware_interface/hardware_info.hpp"
